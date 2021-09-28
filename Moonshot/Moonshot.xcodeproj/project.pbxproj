@@ -17,6 +17,7 @@
 		408FA3EB270348E900AA97EB /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 408FA3E9270348E900AA97EB /* missions.json */; };
 		408FA3EE2703491400AA97EB /* Austronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FA3ED2703491400AA97EB /* Austronaut.swift */; };
 		408FA3F12703494600AA97EB /* Bundle+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FA3F02703494600AA97EB /* Bundle+Decodable.swift */; };
+		408FA3F427034A3400AA97EB /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FA3F327034A3400AA97EB /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		408FA3E9270348E900AA97EB /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		408FA3ED2703491400AA97EB /* Austronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Austronaut.swift; sourceTree = "<group>"; };
 		408FA3F02703494600AA97EB /* Bundle+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decodable.swift"; sourceTree = "<group>"; };
+		408FA3F327034A3400AA97EB /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				408FA3DB26FE387100AA97EB /* Preview Content */,
 				408FA3ED2703491400AA97EB /* Austronaut.swift */,
 				408FA3F02703494600AA97EB /* Bundle+Decodable.swift */,
+				408FA3F327034A3400AA97EB /* Mission.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				408FA3F427034A3400AA97EB /* Mission.swift in Sources */,
 				408FA3D426FE386800AA97EB /* AppDelegate.swift in Sources */,
 				408FA3F12703494600AA97EB /* Bundle+Decodable.swift in Sources */,
 				408FA3EE2703491400AA97EB /* Austronaut.swift in Sources */,
