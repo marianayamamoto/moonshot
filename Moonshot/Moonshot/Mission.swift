@@ -36,4 +36,9 @@ struct Mission: Codable, Identifiable {
             return "N/A"
         }
     }
+
+    var crewNames: String {
+        let namesArray = crew.map() { $0.name }
+        return namesArray.joined(separator: ", ")
+    }
 }
